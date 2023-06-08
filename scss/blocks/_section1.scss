@@ -1,0 +1,139 @@
+.section1 {
+  width: 100%;
+  height: 580px;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat Subrayada', sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &-list {
+    width: 80%;
+    height: 90%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &-item1{
+      display: none;
+    }
+    &-item {
+      width: 25%;
+      height: 90%;
+      text-align: left;
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      flex-direction: column;
+      &-title {
+        width: 100%;
+        height: 20%;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 44px;
+        text-align: left;
+      }
+      &-text {
+        width: 100%;
+        height: 30%;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+      }
+      &-knopka {
+        width: 100%;
+        height: 20%;
+        &-btn {
+          width: 270px;
+          height: 53px;
+          border: 1px solid #303030;
+          &-link {
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 18px;
+            text-decoration: none;
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px){
+  .section1{
+    width: 100%;
+    height: 580px;
+    &-list{
+      width: 90%;
+    height: 100%;
+    flex-wrap: wrap;
+    &-item{
+      width: 45%;
+      height: 45%;
+      &-title{
+        font-size: 28px;
+        width: 100%;
+        height: 22%;
+      }
+      &-text{
+        font-size: 12px;
+        width: 90%;
+        height: 38%;
+      }
+      &-knopka{
+        width: 100%;
+        height: 20%;
+        &-btn{
+          width: 220px;
+          height: 43px; 
+        }
+      }
+    }
+    &-item1{
+      display: block;
+      width: 45%;
+      height: 45%;
+      &-src{
+        width: 90%;
+      }
+    }
+    }
+  }
+}
+@media screen and (max-width: 400px){
+  .section1{
+    width: 100%;
+    height: 100%;
+    &-list{
+      width: 90%;
+    height: 70%;
+    &-item{
+      padding: 5%;
+      width: 100%;
+      height: 90%;
+      &-title{
+        font-size: 28px;
+        width: 100%;
+        height: 20%;
+      }
+      &-text{
+        font-size: 12px;
+        width: 100%;
+        height: 50%;
+      }
+      &-knopka{
+        width: 100%;
+        height: 20%;
+        &-btn{
+          width: 220px;
+          height: 43px; 
+        }
+      }
+    }
+    &-item1{
+      display: none;
+     
+    }
+    }
+  }
+}

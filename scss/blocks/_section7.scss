@@ -1,0 +1,271 @@
+.section7 {
+  width: 100%;
+  height: 1305px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat Subrayada", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &-container {
+    width: 80%;
+    height: 90%;
+    &-title {
+      width: 100%;
+      height: 10%;
+      font-size: 50px;
+      font-weight: 800;
+      line-height: 61px;
+      &-span {
+        color: red;
+      }
+    }
+    &-list {
+      width: 100%;
+      height: 90%;
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      &-item1 {
+        width: 49%;
+        height: 45%;
+
+        &-img {
+          width: 100%;
+        }
+      }
+      &-item2 {
+        display: flex;
+            justify-content: center;
+            align-items: center;
+        width: 49%;
+        height: 45%;
+        &-subject {
+             width: 80%;
+            height: 80%;
+            display: flex;
+            justify-content: space-around;
+            align-content: space-around;
+            flex-direction: column;
+          &-title {
+            width: 80%;
+            height: 20%;
+            font-size: 39px;
+            font-weight: 700;
+            line-height: 47px;
+          }
+         &-card{
+          margin-top: 2%;
+
+             width: 90%;
+            height: 45%;
+            display: flex;
+            justify-content:space-around;
+            align-items: start;
+            flex-direction: column;
+            margin-left: 0;
+             &-desc {
+            width: 100%;
+            height: 25%;
+            display: flex;
+            &-img{
+                width: 10%;
+                height: 100%;
+            }
+            &-text{
+                width: 80%;
+                height: 100%;
+            }
+          }
+         }
+        }
+        &-knopka{
+            width: 80%;
+            height: 20%;
+            &-btn{
+                height: 58px;
+width: 350px;
+left: 1094px;
+background: #FF0000;
+border: none;
+&-link{
+color: white;
+text-decoration: none;
+font-size: 16px;
+}
+            }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px){
+  .section7{
+    width: 100%;
+  height: 905px;
+  &-container {
+    width: 90%;
+    height: 100%;
+    &-title {
+      width: 90%;
+      height: 10%;
+     font-size: 32px;
+    }
+    &-list {
+      width: 95%;
+      height: 90%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &-item1 {
+        width: 45%;
+        height: 45%;
+
+        &-img {
+          width: 110%;
+         
+        }
+      }
+      &-item2 {
+        margin-top: -10%;
+        margin-left: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45%;
+        height: 45%;
+        &-subject{
+          width: 100%;
+          height: 90%;
+         
+          &-title {
+            width:90%;
+            height: 25%;
+            font-size: 24px;
+          }
+          &-card{
+  
+               width: 90%;
+              height: 55%;
+              
+               &-desc {
+              width: 90%;
+              height: 25%;
+              display: flex;
+              &-img{
+                  width: 5%;
+                  height: 100%;
+                  &-img{
+                    width: 50%;
+                  }
+              }
+              &-text{
+                  width: 80%;
+                  height: 30%;
+                  font-size: 16px;
+              }
+            }
+           }
+      
+        }
+        &-knopka{
+          width: 90%;
+          height: 20%;
+          &-btn{
+              height: 45px;
+width: 200px;
+
+          }
+      }
+       
+      }
+    }
+  }
+  }
+}
+@media screen and (max-width: 400px){
+  .section7 {
+    width: 100%;
+    height: 1305px;
+    &-container {
+      width: 90%;
+      height: 100%;
+      &-title {
+        width: 90%;
+        height: 10%;
+       font-size: 32px;
+      }
+      &-list {
+        width: 90%;
+        height: 100%;
+        display: block;
+
+        &-item1 {
+          width: 90%;
+          height: 22%;
+          display: block;
+  
+          &-img {
+            width: 90%;
+           
+          }
+        }
+        &-item2 {
+          display: block;
+  
+          width: 100%;
+          height: 25%;
+          &-subject{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            &-title {
+              width:90%;
+              height: 7%;
+              font-size: 18px;
+            }
+            &-card{
+              margin-top: -2%;
+    
+                 width: 90%;
+                height: 55%;
+                
+                margin-left: 10%;
+                 &-desc {
+                width: 90%;
+                height: 25%;
+                display: flex;
+                &-img{
+                    width: 5%;
+                    height: 100%;
+                    &-img{
+                      width: 50%;
+                    }
+                }
+                &-text{
+                    width: 80%;
+                    height: 100%;
+                    font-size: 10px;
+                }
+              }
+             }
+        
+          }
+          &-knopka{
+            width: 90%;
+            height: 20%;
+            &-btn{
+                height: 45px;
+width: 200px;
+border: none;
+            }
+        }
+         
+        }
+      }
+    }
+  }
+}
+

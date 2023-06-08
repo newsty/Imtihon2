@@ -1,0 +1,154 @@
+.header {
+  font-family: "Tenor Sans", sans-serif;
+  width: 100%;
+  height: 85px;
+  background: #151515;
+  &-nav {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-logo {
+      width: 20%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &-list {
+      width: 30%;
+      height: 100%;
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      &-item {
+        width: 22%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 18px;
+        &-link1 {
+          text-decoration: none;
+          color: white;
+        }
+        &-link2 {
+          text-decoration: dashed;
+          color: red;
+        }
+      }
+    }
+    &-tel {
+      width: 20%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &-link {
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 27px;
+        color: white;
+        text-decoration: none;
+      }
+    }
+    &-extra {
+      width: 15%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &-link {
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 17px;
+        color: #ffffff;
+      }
+    }
+    &-menu {
+      display: none;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .header {
+    width: 100%;
+    height: 100%;
+    &-nav {
+      width: 100%;
+      height: 100%;
+      &-logo {
+        width: 20%;
+        height: 80%;
+      }
+      &-list {
+        display: none;
+      }
+      &-tel {
+        width: 40%;
+        height: 100%;
+        padding: 2%;
+        &-link {
+          font-size: 20px;
+        }
+      }
+      &-extra {
+        display: none;
+      }
+      &-menu {
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+@media screen and (max-width: 400px) {
+  .header {
+    width: 100%;
+    height: 100%;
+    &-nav {
+      width: 100%;
+      height: 100%;
+      &-logo {
+        width: 10%;
+        height: 80%;
+        &-src {
+          width: 90%;
+        }
+      }
+      &-list {
+        display: none;
+      }
+      &-tel {
+        width: 40%;
+        height: 100%;
+        padding: 2%;
+        &-link {
+          font-size: 14px;
+          &-img {
+            width: 70%;
+          }
+        }
+      }
+      &-extra {
+        display: none;
+      }
+      &-menu {
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+      }
+    }
+  }
+}

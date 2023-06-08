@@ -1,0 +1,435 @@
+.section2{
+    width: 100%;
+    height: 1192px;
+    background: #010101;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  &-container{
+    width: 75%;
+    height: 80%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: column;
+    &-card1{
+  width: 100%;
+  height: 35%;
+ 
+  &-title{
+    width: 95%;
+    height: 25%;
+    color: white; 
+font-size: 50px;
+font-weight: 800;
+line-height: 44px;
+&-span{
+    color: red;
+}
+  }
+  &-list{
+    width: 100%;
+    height: 75%;
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    &-item{
+width: 28%;
+height: 100%;
+&-subject{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center ;
+    &-title{
+        width: 60%;
+        height: 100%;
+color: white;
+font-size: 30px;
+font-weight: 600;
+line-height: 30px;
+
+    }
+    &-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        height: 100%;
+        &-src{
+width: 60%;
+        }
+    }
+}
+&-text{
+width: 100%;
+height: 70%;
+font-size: 18px;
+font-weight: 300;
+line-height: 32px;
+color: rgb(249, 245, 233);
+
+}
+    }
+  }
+    }
+    &-card2{
+width: 100%;
+height: 35%;
+&-title{
+    width: 95%;
+    height: 25%;
+font-size: 50px;
+font-weight: 800;
+line-height: 44px;
+color: white;
+
+}
+&-list{
+    width: 95%;
+    height: 75%;
+    list-style: none;
+    &-item{
+        width: 100%;
+        height: 28%;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        &-img{
+            width: 10%;
+            height: 100%;
+            
+        }
+        &-titel{
+            width: 30%;
+            height: 80%;
+font-size: 25px;
+font-weight: 600;
+line-height: 22px;
+color: white;
+
+        }
+        &-text{
+            width: 60%;
+            height: 90%;
+font-size: 18px;
+font-weight: 400;
+line-height: 29px;
+color: rgb(244, 238, 230);
+
+        }
+    }
+}
+    }
+    &-knopka{
+        width: 100%;
+        height: 10%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     &-btn{
+width: 498px;
+height: 58px;
+background: #FF0000;
+border: none;
+color: white;
+font-size: 16px;
+     }
+     &-btn:hover{
+        width: 499px;
+        height: 59px;
+        background: #FF0000;
+        border: none;
+        color: white;
+        font-size: 16px;
+             }
+    }
+  }
+}
+@media screen and (max-width: 768px){
+    .section2{
+        width: 100%;
+        height: 1192px;
+        &-container{
+            width: 100%;
+            height: 100%;
+           
+            &-card1{
+                width: 100%;
+                height: 35%;
+               
+                &-title{
+                  width: 95%;
+                  height: 25%;
+                  color: white; 
+              font-size: 32px;
+              font-weight: 800;
+              line-height: 32px;
+              &-span{
+                  color: red;
+              }
+                }
+                &-list{
+                  width: 100%;
+                  height: 80%;
+                  list-style: none;
+                  display: flex;
+                  justify-content:space-around;
+                  align-items: center;
+                  &-item{
+              width: 28%;
+              height: 100%;
+              &-subject{
+                  width: 100%;
+                  height: 25%;
+                  display: flex;
+                  justify-content:space-evenly;
+                  align-items:center ;
+                  &-title{
+                      width: 60%;
+                      height: 100%;
+              color: white;
+              font-size: 18px;
+              font-weight: 600;
+              line-height: 30px;
+              
+                  }
+                  &-img{
+                      width: 30%;
+                      height: 100%;
+                  }
+              }
+              &-text{
+              width: 100%;
+              height: 70%;
+              font-size: 12px;
+              font-weight: 300;
+              line-height: 32px;
+              color: rgb(249, 245, 233);
+              
+              }
+                  }
+                }
+                  }
+                  &-card2{
+                    width: 100%;
+                    height: 35%;
+                    &-title{
+                        width: 95%;
+                        height: 25%;
+                        color: white; 
+                    font-size: 32px;
+                    font-weight: 800;
+                    line-height: 32px;
+                    
+                    }
+                    &-list{
+                        width: 100%;
+                        height: 75%;
+                        list-style: none;
+                        &-item{
+                            width: 95%;
+                            height: 30%;
+                            display: flex;
+                            justify-content:center;
+                            align-items: center;
+                            &-img{
+                                width: 10%;
+                                height: 80%;
+                              &-src{
+                                width: 60%;
+                              }
+                            }
+                            &-titel{
+                                width: 20%;
+                                height: 80%;
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 22px;
+                    color: white;
+                    
+                            }
+                            &-text{
+                                width: 50%;
+                                height: 90%;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 29px;
+                    color: rgb(244, 238, 230);
+                    
+                            }
+                        }
+                    }
+                        } 
+                        &-knopka{
+                            width: 100%;
+                            height: 20%;
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                         &-btn{
+                    width: 296px;
+                    height: 36px;
+                    background: #FF0000;
+                    border: none;
+                    color: white;
+                    font-size: 10px;
+                         }
+                         &-btn:hover{
+                            width: 297px;
+                            height: 37px;
+                            background: #FF0000;
+                            border: none;
+                            color: white;
+                            font-size: 12px;
+                                 }
+                        }   
+        }
+    }
+}
+@media screen and (max-width: 400px){
+    .section2{
+        width: 100%;
+        height: 1192px;
+        &-container{
+            width: 100%;
+            height: 100%;
+           
+            &-card1{
+                width: 100%;
+                height: 40%;
+               
+                &-title{
+                  width: 95%;
+                  height: 20%;
+                  color: white; 
+              font-size: 28px;
+              font-weight: 800;
+              line-height: 32px;
+              &-span{
+                  color: red;
+              }
+                }
+                &-list{
+                  width: 100%;
+                  height: 80%;
+                  list-style: none;
+                  display: block;
+              
+                  &-item{
+              width: 95%;
+              height: 33%;
+              &-subject{
+                  width: 100%;
+                  height: 30%;
+             
+                  &-title{
+                      width: 60%;
+                      height: 100%;
+              color: white;
+              font-size: 17px;
+              font-weight: 600;
+              line-height: 30px;
+              
+                  }
+                  &-img{
+                      width: 40%;
+                      height: 90%;
+                      &-src{
+                        width: 30%;
+                      }
+                  }
+              }
+              &-text{
+              width: 100%;
+              height: 70%;
+              font-size: 10px;
+              font-weight: 300;
+              line-height: 32px;
+              color: rgb(249, 245, 233);
+              
+              }
+                  }
+                }
+                  }
+                  &-card2{
+                    width: 100%;
+                    height: 40%;
+                    &-title{
+                        width: 95%;
+                        height: 20%;
+                        color: white; 
+                    font-size: 28px;
+                    font-weight: 800;
+                    line-height: 32px;
+                    
+                    }
+                    &-list{
+                        width: 100%;
+                        height: 80%;
+                        list-style: none;
+                        &-item{
+                            width: 95%;
+                            height: 33%;
+                            display: flex;
+                            justify-content:center;
+                            align-items: center;
+                            flex-wrap: wrap;
+                            &-img{
+                                width: 20%;
+                                height: 40%;
+                              &-src{
+                                width: 60%;
+                              }
+                            }
+                            &-titel{
+                                width: 70%;
+                                height: 40%;
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 22px;
+                    color: white;
+                    
+                            }
+                            &-text{
+                                width: 100%;
+                                height: 60%;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 29px;
+                    color: rgb(244, 238, 230);
+                    
+                            }
+                        }
+                    }
+                        } 
+                        &-knopka{
+                            width: 100%;
+                            height: 20%;
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                         &-btn{
+                    width: 296px;
+                    height: 36px;
+                    background: #FF0000;
+                    border: none;
+                    color: white;
+                    font-size: 10px;
+                         }
+                         &-btn:hover{
+                            width: 297px;
+                            height: 37px;
+                            background: #FF0000;
+                            border: none;
+                            color: white;
+                            font-size: 12px;
+                                 }
+                        }   
+        }
+    }
+}
